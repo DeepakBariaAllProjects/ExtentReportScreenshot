@@ -13,6 +13,6 @@ public class ExtentReportGenerator {
 		File extentReportFile = new File(System.getProperty("user.dir")+"\\ExtentReport\\extentReport.html");
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
 		report.attachReporter(sparkReporter);
-		return report;
-	}
+		return report; 
+	} 
 }
